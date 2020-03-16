@@ -1,6 +1,5 @@
 import React from "react";
 
-import DetectInternet from "./components/DetectInternet";
 
 const App = () => {
   return (
