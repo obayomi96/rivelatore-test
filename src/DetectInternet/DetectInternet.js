@@ -1,11 +1,15 @@
 import React from "react";
 
 const DetectInternet = ({ message, style }) => {
-  const internetConnection = navigator.onLine;
+  const connected = navigator.onLine;
   return (
-    <div style={style}
-    >
-      {!internetConnection ? message : ""}
+    <div>
+      {
+        !connected ?
+        <div style={style}>
+          { message }
+      </div> : ''
+      }
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import DetectInternet from "./components/DetectInternet";
+// import DetectInternet from "./src/DetectInternet";
 
-ReactDOM.render(<DetectInternet />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
